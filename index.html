@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аудитерия — аудиокниги</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="logo" href="./index.html"><img src="./images/Group 16015 (1).png" alt="Аудитерия"></a>
+    <nav class="header-nav">
+      <a href="./kak-kupit/kak-kupit.html">Как купить</a>
+      <a href="./faq/faq.html">F.A.Q</a>
+      <a href="./kontakty/kontakty.html">Контакты</a>
+      <a href="./men-haqimda/men-haqimda.html">Men haqimda</a>
+    </nav>
+    <div class="header-right">
+      <div class="search-box"><img src="./images/Icon (8).png" alt=""><input type="text" placeholder="Поиск..."></div>
+      <input type="checkbox" id="theme" class="theme-toggle">
+      <label for="theme" class="theme-label" title="Dark mode" aria-label="Dark mode"></label>
+      <input type="checkbox" id="reg-toggle" class="modal-toggle">
+      <label for="reg-toggle" class="btn-outline">Ro'yxatdan o'tish</label>
+      <div class="modal">
+        <label for="reg-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="reg-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Ro'yxatdan o'tish</h2>
+          <form>
+            <input type="text" placeholder="Ismingiz" required>
+            <input type="text" placeholder="Familiyangiz" required>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Ro'yxatdan o'tish</button>
+          </form>
+        </div>
+      </div>
+      <input type="checkbox" id="login-toggle" class="modal-toggle">
+      <label for="login-toggle" class="btn-filled">Kirish</label>
+      <div class="modal">
+        <label for="login-toggle" class="modal-overlay"></label>
+        <div class="modal-content">
+          <label for="login-toggle" class="close-btn" title="Yopish">×</label>
+          <h2>Kirish</h2>
+          <form>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Parolingiz" required>
+            <button type="submit">Kirish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="owl-carousel owl-theme">
+      <div class="item hero-slide slide-1">
+        <div class="container">
+          <h1>Книги, которые вам хочется слушать</h1>
+          <p>Лучшая подборка аудиокниг по психологии и саморазвитию за все годы издательства.</p><a class="hero-btn"
+            href="#novinki">Выбрать книгу</a>
+        </div>
+      </div>
+      <div class="item hero-slide slide-2">
+        <div class="container">
+          <h1>Увлекательные истории в формате аудио</h1>
+          <p>Слушайте любимые произведения в любом месте и в любое время.</p><a class="hero-btn" href="#novinki">Выбрать
+            книгу</a>
+        </div>
+      </div>
+      <div class="item hero-slide slide-3">
+        <div class="container">
+          <h1>Развивайтесь каждый день вместе с нами</h1>
+          <p>Получите доступ к эксклюзивной библиотеке бестселлеров со всего мира.</p><a class="hero-btn"
+            href="#novinki">Выбрать книгу</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="novinki">
+    <div class="section-header">
+      <h2>Новинки</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" data-genre="Роман" href=""><img src="./png (35).png"
+          alt="Завтра будет вчера">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Завтра будет вчера</p>
+      </a>
+      <a class="card" data-genre="Триллер" href="./2-kitob/2-kitob.html"><img src="./png (36).png"
+          alt="Низший. Книга шестая">
+        <p class="author">Линкольн Чайлд</p>
+        <p class="title">Низший. Книга шестая</p>
+      </a>
+      <a class="card" data-genre="Детектив" href="./3-kitob/3-kitob.html"><img src="./png (37).png" alt="Тайник">
+        <p class="author">Жена башмачника</p>
+        <p class="title">Тайник</p>
+      </a>
+      <a class="card" data-genre="Фэнтези" href="./4-kitob/4-kitob.html"><img src="./png (38).png"
+          alt="Ночная смена. Крепость живых...">
+        <p class="author">Лира Алая</p>
+        <p class="title">Ночная смена. Крепость живых...</p>
+      </a>
+      <a class="card" data-genre="Мистика" href="./5-kitob/5-kitob.html"><img src="./png (41).png"
+          alt="Агасфер. Старьевщик">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Агасфер. Старьевщик</p>
+      </a>
+    </div>
+    <div class="section-header" id="popular">
+      <h2>Популярное</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" data-genre="Классика" href="./6-kitob/6-kitob.html"><img src="./png (39).png"
+          alt="Унесенные ветром. Часть вторая">
+        <div class="heart-icon icon-1"></div>
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </a>
+      <a class="card" data-genre="Приключения" href="./7-kitob/7-kitob.html"><img src="./png (40).png"
+          alt="Алмазная колесница">
+        <div class="heart-icon icon-2"></div>
+        <p class="author">Линкольн Де Милош...</p>
+        <p class="title">Алмазная колесница</p>
+      </a>
+      <a class="card" data-genre="Детектив" href="./8-kitob/8-kitob.html"><img src="./png (41).png"
+          alt="«Линкольн» для адвоката">
+        <div class="heart-icon icon-3"></div>
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </a>
+      <a class="card" data-genre="Роман" href="./9-kitob/9-kitob.html"><img src="./png (42).png"
+          alt="Не твоя Людмила">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </a>
+      <a class="card" data-genre="Фэнтези" href="./10-kitob/10-kitob.html"><img src="./png (43).png"
+          alt="Тьма императора. Книга вторая">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="editor">
+    <div class="section-header">
+      <h2>Выбор редакции</h2><button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <a class="card" data-genre="Классика" href="./6-kitob/6-kitob.html"><img src="./png (44).png"
+          alt="Унесенные ветром. Часть вторая">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </a>
+      <a class="card" data-genre="Приключения" href="./7-kitob/7-kitob.html"><img src="./png (45).png"
+          alt="Алмазная колесница">
+        <p class="author">Линкольн Чайлд</p>
+        <p class="title">Алмазная колесница</p>
+      </a>
+      <a class="card" data-genre="Детектив" href="./8-kitob/8-kitob.html"><img src="./07.png"
+          alt="«Линкольн» для адвоката">
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </a>
+      <a class="card" data-genre="Роман" href="./9-kitob/9-kitob.html"><img src="./png (46).png"
+          alt="Не твоя Людмила">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </a>
+      <a class="card" data-genre="Фэнтези" href="./10-kitob/10-kitob.html"><img src="./png (47).png"
+          alt="Тьма императора. Книга вторая">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </a>
+    </div>
+  </section>
+
+  <div class="stats reveal">
+    <div class="stat"><b data-count="10000">10&nbsp;000</b><span>аудиокниг</span></div>
+    <div class="stat"><b data-count="500">500</b><span>профессиональных чтецов</span></div>
+    <div class="stat"><b data-count="250000">250&nbsp;000</b><span>слушателей</span></div>
+    <div class="stat"><b data-count="24">24</b><span>часа в сутки на связи</span></div>
+  </div>
+
+  <section class="section reveal">
+    <h2 class="block-title">Почему Аудитерия</h2>
+    <div class="features">
+      <div class="feature"><i class="fa-solid fa-headphones"></i>
+        <h3>Профессиональные чтецы</h3>
+        <p>Каждую книгу озвучивают актёры, поэтому слушать приятно.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-mobile-screen"></i>
+        <h3>Везде и всегда</h3>
+        <p>Слушайте на телефоне, планшете и компьютере.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-gift"></i>
+        <h3>Бесплатные фрагменты</h3>
+        <p>Прослушайте начало книги перед покупкой.</p>
+      </div>
+      <div class="feature"><i class="fa-solid fa-shield-halved"></i>
+        <h3>Безопасная оплата</h3>
+        <p>Visa и Mastercard через защищённый платёж.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2 class="block-title">Отзывы слушателей</h2>
+    <div class="reviews">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Слушаю по дороге на работу. Очень удобно!</p>
+        <div class="who">Анна К.</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Большой выбор и приятные цены. Рекомендую.</p>
+        <div class="who">Дмитрий П.</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>Лучшие чтецы. Уже купила шесть книг.</p>
+        <div class="who">Елена С.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section partners">
+    <img src="./images/22.png" alt="Netflix"><img src="./images/pngwing 7.png" alt="Amazon"><img
+      src="./images/pngwing.png" alt="Avon"><img src="./images/Group 16015 (1).png" alt="Аудитерия"><img
+      src="./images/8 6.png" alt="Dell">
+  </section>
+
+  <hr class="footer-line">
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand"><img src="./images/Group 16015 (1).png" alt="Аудитерия"></div>
+      <div class="footer-col">
+        <h3>Жанры</h3><a href="./index.html#novinki">Роман</a><a href="./index.html#novinki">Детектив</a><a
+          href="./index.html#novinki">Фэнтези</a><a href="./index.html#novinki">Классика</a><a
+          href="./index.html#novinki">Все жанры</a>
+      </div>
+      <div class="footer-col">
+        <h3>Категории</h3><a href="./index.html#popular">Популярное</a><a href="./index.html#novinki">Новинки</a><a
+          href="./index.html#editor">Выбор редакции</a>
+      </div>
+      <div class="footer-col">
+        <h3>Разделы</h3><a href="./kak-kupit/kak-kupit.html">Как купить</a><a href="./faq/faq.html">Часто задаваемые
+          вопросы</a><a href="./kontakty/kontakty.html">Сотрудничество</a><a
+          href="./kontakty/kontakty.html">Контакты</a>
+      </div>
+    </div>
+    <hr class="footer-line" style="margin:0 0 20px">
+    <div class="footer-bottom">
+      <div class="footer-links"><a href="#">Политика конфиденциальности</a><a href="#">Лицензионное соглашение</a></div>
+      <div class="footer-payments"><img src="./images/pngwing (1).png" alt="Visa"><img src="./images/pngwing (2).png"
+          alt="Mastercard"></div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(function () { $(".owl-carousel").owlCarousel({ items: 1, loop: true, autoplay: true, autoplayTimeout: 3500, autoplayHoverPause: true, nav: false, dots: true, smartSpeed: 600 }); });
+  </script>
+</body>
+
+</html>
